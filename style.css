@@ -1,0 +1,293 @@
+/* imported fonts */
+
+@font-face {
+  font-family: 'Puss';
+  src: url('/font/Puss\ in\ Boots.ttf');
+}
+
+/* reset */
+
+* {
+  font-family: 'Puss', sans-serif;
+  color: rgb(255, 243, 112);
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: url('/assets/wild-west.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 -260px;
+}
+
+/* utilities */
+
+.container {
+  margin: 10px 25px;
+  padding: 10px;
+}
+
+.quote {
+  color: rgb(0, 0, 0);
+  text-shadow: .5px .5px 1.5px rgb(199, 189, 82);
+}
+
+.link:hover {
+  text-shadow: 0px 0px 5px white;
+}
+
+.scale:hover {
+  scale: 1.1;
+}
+
+/* header */
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: -30px;
+  top: -50px;
+}
+
+.intro-container blockquote {
+  font-size: 25px;
+}
+
+.puss-quote {
+  position: absolute;
+  margin: 275px 0;
+  top: 350px;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  margin: 150px 100px;
+  position: relative;
+}
+
+.intro h1 {
+  font-size: 200px;
+  text-align: center;
+  /* text-shadow: 1px 1px 10px rgb(59, 56, 25); */
+}
+
+.intro img.puss-image {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 20px;
+  right: -100px;
+}
+
+/* main */
+
+main h3 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 5px rgb(59, 56, 25);
+}
+
+main p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 25px;
+}
+
+/* about puss */
+
+.about-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 100vh;
+}
+
+.about-container p {
+  text-align: justify;
+  padding-right: 20px;
+}
+
+.about-image {
+  border: 1px solid #8b4b14;
+  border-radius: 50px;
+}
+
+.about-image img {
+  width: 700px;
+}
+
+/* physical appearance */
+
+.appearance-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.appearance-container>div {
+  padding-left: 20px;
+}
+
+.appearance-container p {
+  font-size: 17.5px;
+  text-align: justify;
+}
+
+.appearance-image {
+  border: 1px solid #8b4b14;
+  border-radius: 50px;
+}
+
+.appearance-image img {
+  height: 600px;
+}
+
+/* skill & abilities */
+
+.skill-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 100vh;
+}
+
+.skill-container>div {
+  margin-right: 20px;
+}
+
+.skill-container li {
+  margin-bottom: 10px;
+}
+
+.skill-container p {
+  text-align: justify;
+}
+
+.skill-image {
+  border: 1px solid #8b4b14;
+  border-radius: 50px;
+}
+
+.skill-image img {
+  height: 500px;
+}
+
+/* background */
+
+.background-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.background-container>div {
+  margin-left: 20px;
+}
+
+.background-image {
+  border: 1px solid #8b4b14;
+  border-radius: 50px;
+}
+
+.background-image img {
+  height: 600px;
+}
+
+.background-container p {
+  text-align: justify;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+/* early life */
+
+.early-life-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 100vh;
+}
+
+.early-life-image {
+  border: 1px solid #8b4b14;
+  border-radius: 50px;
+}
+
+.early-life-container p {
+  text-align: justify;
+}
+
+.early-life-container>div {
+  margin-right: 20px;
+}
+
+/* footer */
+
+/* related to puss */
+
+.related-item {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.related-item>div {
+  margin: 0 50px
+}
+
+.related-item a {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.related-container h2 {
+  font-size: 70px;
+}
+
+.related-container p {
+  font-size: 15px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.related-container li {
+  list-style: none;
+}
+
+.related-image-container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
+
+.related-image-container img {
+  width: 300px;
+  border: 1px solid;
+  border-radius: 50px;
+}
+
+/* about me footer */
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.about-me a {
+  text-decoration: none;
+}
